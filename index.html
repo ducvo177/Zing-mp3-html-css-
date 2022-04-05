@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/grid.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.1.1-web/css/fontawesome.min.css">
+    <title>Zing Mp3</title>
+    
+  </head>
+
+  <body>
+    <div class="grid wide container">
+      <div class="row no-gutters">
+        <div class="col l-2-2">
+      <!--MP3 Navigation bar-->
+          <div class="navbar">
+            <div class="navbar-content">
+              <img src="assets/logo-dark.svg" alt="Zing icon" class="navbar-icon">
+              <!--Danh sách đầu tiên-->
+              <ul class="navbar-menu1 ">
+                <li class="navbar-menu-item selected">
+                  <i class="navbar-icon ti-user"></i>
+                  <a class="navbar-link" href="">Cá Nhân</a></li>
+                <li class="navbar-menu-item">
+                  <i class="navbar-icon ti-world"></i>
+                  <a class="navbar-link" href="">Khám Phá </a></li>
+                <li class="navbar-menu-item">
+                  <i class="navbar-icon ti-stats-up"></i>
+                  <a class="navbar-link" href="">#zingchart</a>
+                
+                </li>
+                <li class="navbar-menu-item">
+                  <i class="navbar-icon ti-microphone"></i>
+                  
+                  <a class="navbar-link" href="">Radio </a> 
+                  
+                  
+                  
+                </li>
+               
+                <li class="navbar-menu-item">
+                  <i class="navbar-icon ti-folder"></i>
+                  <a class="navbar-link" href="">Theo Dõi</a></li>
+              </ul>
+              <!--Danh sách nối tiếp-->
+              <ul class="navbar-menu2">
+                <li class="navbar-menu-item ">
+                  <i class="navbar-icon ti-music-alt"></i>
+                  <a class="navbar-link" href="">Nhạc Mới</a></li>
+                <li class="navbar-menu-item">
+                  <i class="navbar-icon ti-tag"></i>
+                  <a class="navbar-link" href="">Thể Loại </a></li>
+                <li class="navbar-menu-item">
+                  <i class="navbar-icon ti-star"></i>
+                  <a class="navbar-link" href="">Top 100</a></li>
+                <li class="navbar-menu-item">
+                  <i class="navbar-icon ti-video-clapper"></i>
+                  <a class="navbar-link" href="">MV</a></li>
+                
+              </ul>
+              <!--Nâng cấp VIP-->
+              <div class="navbar-vip">
+                <p class="navbar-vip-title">
+                  Nghe nhạc không quảng cáo
+                   cùng kho nhạc VIP
+                </p>
+                <div class="navbar-vip-btn">Nâng cấp vip</div>
+              </div>
+              <!--Thư viện-->
+            <div class="navbar-libra">
+               <h1 class="navbar-libra-title">
+                 Thư Viện
+               </h1>
+              <ul class="navbar-libra-list">
+                <li class="navbar-libra-item">
+                <img class="navbar-libra-icon" src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-song.cf0cb0b4.svg" alt="Bài hát">
+                 <p class="navbar-libra-item-title">
+                   Bài hát
+                 </p>
+                </li>
+                <li class="navbar-libra-item">
+                  <img class="navbar-libra-icon" src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-playlist.7e92a5f0.svg" alt="Bài hát">
+                   <p class="navbar-libra-item-title">
+                     Playlist
+                   </p>
+                  </li>
+                  <li class="navbar-libra-item">
+                    <img class="navbar-libra-icon" src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-history.374cb625.svg" alt="Bài hát">
+                     <p class="navbar-libra-item-title">
+                       Gần đây
+                     </p>
+                    </li>
+              </ul>
+            </div>
+            <!--Tạo playlist mới-->
+             <div class="navbar-create-playlist">
+                 <i class="ti-plus navbar-create-playlist-icon"></i>
+                 <h1 class="navbar-create-playlist-title">Tạo playlist mới</h1>
+
+             </div>
+
+
+            </div>
+            
+          </div>
+        </div>
+     <!--MP3 Content-->
+        <div class="col l-10-2">
+          <div class="content">
+
+          </div>
+        </div>
+    </div>
+    <!--Music Control-->
+    <div class="row no-gutters">
+      <div class="control">
+           <!--Bài đang được phát-->
+               <div class="control-playing">
+                  <img src="https://photo-resize-zmp3.zadn.vn/w480_r1x1_webp/covers/8/8/88bf99d3bb4ccc291cffcd6644cd7201_1453804806.jpg" alt="" class="control-playing-img">
+                  <div class="control-playing-describ">
+                   <h1 class="control-playing-title">Tết này con không về</h1>
+                   <p class="control-playing-artist">Isacc Thái,Binz</p>
+
+                  </div>
+                  <i class="ti-heart control-playing-icon"></i>
+                  <i class="ti-more-alt control-playing-icon"></i>
+               </div>
+       <!--Điều khiển bài hát-->
+          <div class="control-btn">
+            <i class="ti-control-shuffle control-btn-icon"></i>
+            <i class="ti-control-skip-backward control-btn-icon"></i>
+            <i class="ti-control-play control-btn-icon play-icon"></i>
+            <i class="ti-control-skip-forward control-btn-icon"></i>
+            <i class="ti-reload control-btn-icon"></i>
+            
+    <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+          </div>
+          
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
